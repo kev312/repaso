@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Repaso TABLAS</title>
+</head>
+<body>
+    <!--Ancla-->
+    <a id="arriba"></a>
+
+    <h1 align="center">Esto es un titulo de nivel 1</h1>
+    <!--Para que en la tabla se vean los margenes de las filas y columnas 
+       es necesario añadir dentro de la etiqueta table el atributo border y en mi caso
+       le asigné el valor 1 que es el minimo que necesito para ver dichos margenes-->
+    <table border="1" align="center">
+        <tr>
+            <td>Fila1</td>
+            <td>Fila2</td>
+            <td>Fila3</td>
+            <td>Fila4</td>
+        </tr>
+        <tr>
+        <!--ROWSPAN FUSIONA FILAS-->
+            <td rowspan="2">FilaFusionada </td>
+            <td>Fila2</td>
+        <!--COLSPAN FUSIONA COLUMNAS -->
+            <td colspan="2">ColumnaFusionada</td>
+        </tr>
+        <tr>
+            <td>Fila2</td>
+            <td colspan="2" rowspan="2">ColumnaFilaFusionada</td>
+        </tr>
+        <tr>
+            <td colspan="2">ColumnaFusionada2</td>
+    
+        </tr>
+    </table>
+    <!--salto de linea br y hr es una linea en la pantalla-->
+    <br><hr color="red">
+
+    <!--OTRO EJEMPLO DE TABLA-->
+    <h2 align="center">Esto es un titulo de nivel 2</h2>
+
+    <table border="4" align="center">
+        <tr>
+        <!--TH TITULO DENTRO DE TABLA-->            
+            <th colspan="7">RUTINA SEMANAL </th>
+        </tr>
+        <tr>
+            <td>Lunes</td>
+            <td>Martes</td>
+            <td>Miercoles</td>
+            <td>Jueves</td>
+            <td>Viernes</td>
+            <td>Sabado</td>
+            <td>Domingo</td> 
+        </tr>
+        <tr>
+            <td>Pasear</td>
+            <th rowspan="2">Programar</th>
+            <td>ECOMERCE</td>
+            <th colspan="2">GIMNASIO</th>
+            <th rowspan="2">SALIR</th>
+            <th rowspan="2">MISA</th>
+        </tr>
+         <tr>
+            <td>Programar</td>
+            <td>ECOMERCE</td>
+            <td>GIMNASIO</td>
+            <td>Programar</td>        
+        </tr>
+        <tr>
+            <th colspan="7">COCINAR</th>
+        </tr>
+        <tr>
+            <th colspan="5" rowspan="3">CLASE</th>
+            <th colspan="2">FUTBOL</th>
+        </tr>
+        <tr>
+            <th colspan="2">ECOMERCE</th>
+        </tr>
+        <tr>
+            <th colspan="2">Programar</th>
+        </tr>
+        <tr>
+            <th colspan="5">ESTUDIAR</th>
+            <th colspan="2">JUGAR </th>
+        </tr>
+        
+    </table>
+    <p align="center">Ahora probaremos las anclas en HTML y para ello usaremos la etiqueta a 
+        asfsakfnsfsfdsfdskfdsfdskfdskfskdfsdfksdfkdsdskfdsfdskfsdjfkdsjfkjsdkfjskfjsdkf sdkfjsdkjfdskjfksdjkjfskdffdskflsdjfiersdhfjdskj
+        sfsdfsdhfidshfdsjkfhdsjkfhjfhfreearaquefreearaquefreeearaquearaquefreefreearaquefreearaque
+        asdkasjfjaslfjaskfjaslkjgfaskljgaskljlfasdjkdasdadas
+        dasdasadsdadajdjadjakdjaldjaskljfdLOCALHOSSFAJasdsadasdasfsjakdsjksaf
+        assadsssssssssssssssssssssssssssssssssdwqdwdewjfdajskfdasjfjkhsadhsahfakJ
+    </p>
+    <table border="9" align="center">
+        <tr>
+            <th>Pais</th>
+            <th colspan="2">EJEMPLO</th>
+            <th>EJEMPLO</th>
+            <th>EJEMPLO</th>
+        </tr>
+        <tr>
+            <td>España</td>
+            <th rowspan="2" colspan="3">popote</th>
+            <th rowspan="3">JOVENES</th>
+        </tr>
+        <tr>
+            <td>FONDO</td>
+        
+        </tr>
+        <tr>
+            <td>Free Araque</td>
+            <th>UG</th>
+            <th colspan="2">dragonhdmi</th>
+        </tr>
+        <tr>
+            <td>PACO</td>
+            <td>EDUAR</td>
+            <th colspan="3">VICROBE</td>
+        </tr>
+        <tr>
+            <th rowspan="4">FTP UBUNTU</th>
+            <td>MMEQ</td>
+            <td>SOM</td>
+            <td>SOR</td>
+            <td>FCT</td>
+        </tr>
+        <tr>
+            <td>PON</td>
+        </tr>
+        <tr>
+            <td>CALVOO</td>
+            <td>POKEMON</td>
+            <td>PLACA BASE</td>
+            <td>DAM</td>
+        </tr>
+        <tr>
+            <th colspan="4">dns</th>
+        </tr>
+    </table>
+
+    <a href="#arriba">
+        <button>Subir al inicio</button>
+    </a>
+
+</body>
+</html>
