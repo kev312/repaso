@@ -4,10 +4,10 @@
 <title>Formularios</title>
 
 </head>
-<body>
+<body bg color="#736DC9">
 <center>
 <br><br><br><br>
-<h1>FORMULARIO DE CONTRACI�N DE SERVICIOS</h1>
+<h1>FORMULARIO DE Ejemplo</h1>
 <table bgcolor="#00f0f0" border="3" height="350px" width="30%" cellspacing="5">
 
 <form action="programa.php" method="get" enctype="text/plain">
@@ -40,9 +40,59 @@
 <td align="center"> <input  required type="submit" value="enviar datos" name="enviar datos"></td><td><input required type="reset" value="borrar datos" name="limpiar datos"></td>
 </tr>
 
+<br><br><br><br><br><br><br><br><br><br>
+<form action="programa.php" method="post" enctype="text/plain">
 
+<p><h1>CAJA DE TEXTO</h1>
+NOMBRE:
+ <input type="text" name="nombre" size="25" maxlength="20" placeholder="a�adir nombre" title="cop�n con tu nombre">
+ 
+<p><h1>CAJA DE TEXTO PARA CLAVES</h1>
+<p>CONTRASE�A:
+<input type="password" name="contrase�a" size="20" maxlength="20">
 
+<p><h1>BOTONES DE ELECCI�N</h1>
+<input type="radio" name="musica" value="jazz">Jazz
+<input type="radio" name="musica" value="pop">Pop
+<input type="radio" CHECKED name="musica" value="rock">Rock
+<input type="radio" name="musica" value="country">Country
+</p>
 
+<p><h1 align="center">CAJA DE SELECCI�N</h1>
+<table align="center" border="2" cellpadding="15">
+<tr>
+<td>
+<h2 align="center"><font color="red">SELECIONA LAS AFICIONES<br>(las que procedan)</font></h2>
+<input type="checkbox" name="nintendo" value="jazz">Jugar nintendo
+<input type="checkbox" name="ps4" value="pop">Jugar ps4
+<input type="checkbox" name="xbox" value="rock">Jugar xbox
+<input type="checkbox" name="wii" value="country">Jugar wii
+<p><input type="submit" value="enviar"></p>
+</table>
+</p>
+
+<p><h1 align="center">BOTONES</h1>
+<table align="center" border="2" cellpadding="15">
+<tr>
+<td>
+<h2 align="center"><font color="red">SELECIONA LAS AFICIONES<br>(las que procedan)</font></h2>
+<input type="button" name="cerrar" value="remplazar" onclick="window.location.replace('actividad2_7.html');">
+<input type="button" name="cerrar" value="abrir en otra ventana" onclick="window.open('actividad2_7.html');">
+<input type="button" name="cerrar" value="alerta" onclick="alert('has pulsado el bot�n de alerta');">
+</table>
+</p>
+</form>
+
+<form action="">
+<p><h1>SELECI�N DE PROVINCIA</h1>
+<select name="mislugares">
+<option value="toledo">Toledo
+<option value="ciudad real">Ciudad real
+<option  value="albacete">Albacete
+<option value="malaga">Malaga
+<option  value="ibiza">Ibiza
+</select>
+</form>
 
 </table>
 
